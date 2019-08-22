@@ -1,0 +1,577 @@
+{
+	"info": {
+		"name": "LOFT Café",
+		"address": "Calle San Antón 6, 18005 Granada\n<a href=\"tel:+34 958 520 933\">+34 958 520 933</a>",
+		"image": "logo-loft.jpg",
+		"hours": "Lunes-Viernes: de 8:30 a 19:00\nSábados: de 10:00 a 16:00\nDomingos: cerrado",
+		"hoursDetails": "Nuestro horario ininterrumpido de cocina hace posible que nuestros clientes puedan disfrutar de cualquier plato de nuestras cartas a cualquier hora."
+	},
+	"sections": {
+		"desayunos": {
+			"name": "Desayunos",
+			"image": "desayunos.jpg",
+			"items": ["huevos-benedicto", "english-breakfast", "desayuno-lenador", "tortilla-silvestre", "aguacate-mozzarella", "sandwich-club-california", "extra-aguacate"],
+			"info": "Todos nuestros BRUNCHES se sirven con Café o Té o vaso de Leche o Cacao o Refresco o Caña de Cerveza o Copa de Rioja, incluido en el precio. En LOFT Café se sirve entre las 10,00 y las 14,00 horas. (Fuera de este horario el Brunch tiene un recargo de 3,00€)."
+		},
+		"entradas": {
+			"name": "Entradas para compartir",
+			"image": "entradas.jpg",
+			"items": ["yemas-esparragos", "mejillones", "anchoas-cantabrico", "jamon-iberico", "queso-oveja", "quesos-europeos", "alcachofas", "corazones-alcachofas", "tartar-salmon"],
+			"hasSizes": ["Elija el tamaño", "Media", "Entera"]
+		},
+		"ensaladas": {
+			"name": "Ensaladas",
+			"image": "ensaladas.jpg",
+			"items": ["ensalada-loft", "ensalada-cesar", "ensalada-queso", "ensalada-mediterranea", "ensalada-caprese", "ensalada-tomates", "tomate-castellano", "ensalada-nicoise"]
+		},
+		"acompanamientos": {
+			"name": "Acompañamientos",
+			"hidden": true,
+			"items": ["atun-plancha", "salmon-marinado", "dados-ternera", "pollo-plancha", "pollo-empanado"]
+		},
+		"guarniciones": {
+			"name": "Guarniciones",
+			"hidden": true,
+			"items": ["verduras-temporada", "patatas-cocidas", "pisto-tradicional", "patatas-fritas"]
+		},
+		"carnes": {
+			"name": "Carnes",
+			"image": "carnes.jpg",
+			"items": ["chuleton-vaca", "lomo-vacuno", "solomillo-vacuno-parrilla", "solomillo-vacuno-foie", "entraña-vacuno", "hamburguesa-loft", "lomo-ternera", "tacos-solomillo", "chuletillas-cordero", "medallones-solomillo"],
+			"info": "Nuestras carnes vienen acompañadas de una <a href=\"#/section/guarniciones\">guarnición</a> a elegir"
+		},
+		"postres": {
+			"name": "Postres",
+			"image": "postres.jpg",
+			"items": ["canutillos-pina", "cassata-italianos", "brownie-helado", "tartin-manzana", "ensalada-fruta", "crema-yogurt", "crepes-platano", "crepes-dulce-leche", "crepes-loft", "crepes-apple", "tarta-loft", "tarta-chocolate"]
+		}
+	},
+	"items": {
+		"huevos-benedicto": {
+			"name": "Especial Brunch Huevos Benedicto",
+			"price": 17.95,
+			"image": "huevos-benedicto.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos"],
+			"description": "Dos mitades de un muffin inglés y una tostada cubiertos con jamón cocido, panceta o pastrami, huevos escalfados y la muy popular salsa holandesa. Incluye también una ensalada de frutas naturales con zumo de naranja recién exprimido."
+		},
+		"english-breakfast": {
+			"name": "English Breakfast",
+			"price": 17.95,
+			"image": "english-breakfast.jpg",
+			"filters": [],
+			"allergens": ["huevos"],
+			"description": "Huevos camperos revueltos, fritos o tortilla francesa, con beicon o York, salchichas, brocheta de verduras, tomate plancha, patatas fritas y pan tostado. Incluye también una ensalada de frutas naturales con zumo de naranja recién exprimido."
+		},
+		"desayuno-lenador": {
+			"name": "Desayuno del leñador",
+			"price": 17.95,
+			"image": "desayuno-lenador.jpg",
+			"filters": [],
+			"allergens": ["huevos", "lacteos"],
+			"description": "Porción de mantequilla, beicon, salchicha a la parrilla y dos huevos a diferente estilo sobre rebanadas de pan casero. Incluye también una ensalada de frutas naturales con zumo de naranja recién exprimido."
+		},
+		"tortilla-silvestre": {
+			"name": "Tortilla Silvestre",
+			"price": 17.95,
+			"image": "tortilla-silvestre.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos"],
+			"description": "Tortilla francesa de dos huevos con champiñones, guisantes y calabacín. Incluye también una ensalada de frutas naturales con zumo de naranja recién exprimido."
+		},
+		"aguacate-mozzarella": {
+			"name": "Aguacate & Mozzarella",
+			"price": 17.95,
+			"image": "aguacate-mozzarella.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos", "frutos"],
+			"description": "Tostadas de huevo frito, aguacate, mozzarella, tomates Cherry salteados y pimientos. Incluye también una ensalada de frutas naturales con zumo de naranja recién exprimido."
+		},
+		"sandwich-club-california": {
+			"name": "Sandwich Club California",
+			"price": 14.95,
+			"image": "sandwich-club-california.jpg",
+			"filters": [],
+			"allergens": ["huevos"],
+			"description": "Ternera, jamón ibérico, huevo frito de sartén, tomate, selección de ensalada variada y mayonesa. Incluye también una ensalada de frutas naturales con zumo de naranja recién exprimido."
+		},
+		"extra-aguacate": {
+			"name": "Extra de aguacate",
+			"price": 1.90,
+			"image": "extra-aguacate.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Aguacate extra para acompañar."
+		},
+		"canutillos-pina": {
+			"name": "Canutillos de Piña rellenos de crema de Yogurt y Azúcar Moreno",
+			"price": 6.00,
+			"image": "canutillos-pina.png",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Deliciosos rolls de piña dulces, perfectos para el postre."
+		},
+		"cassata-italianos": {
+			"name": "Cassata de \"Los Italianos\"",
+			"price": 6.00,
+			"image": "cassata-italianos.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Suculenta tarta cassata de tuttifrutti, chocolate y fresas."
+		},
+		"brownie-helado": {
+			"name": "Brownie con Helado de Vainilla",
+			"price": 6.00,
+			"image": "brownie-helado.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos"],
+			"description": "Delicioso pastel de Chocolate caliente con Nueces acompañado por nuestro helado de vainilla artesano."
+		},
+		"tartin-manzana": {
+			"name": "Tartín de Manzana con Helado de Nata",
+			"price": 6.00,
+			"image": "tartin-manzana.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Tarta de manzana casera de LOFT"
+		},
+		"ensalada-fruta": {
+			"name": "Ensalda \"Fruta de temporada\" con zumo de Naranja Natural o Yogurt.",
+			"price": 6.00,
+			"image": "ensalada-fruta.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Combinación de nuestras frutas de temporada combinando el postre perfecto para los más fruteros."
+		},
+		"crema-yogurt": {
+			"name": "Crema de Yogurt con Miel y Nueces",
+			"price": 6.00,
+			"image": "crema-yogurt.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Suave crema de yogurt hecha a partir de las fresas más frescas de LOFT."
+		},
+		"crepes-platano": {
+			"name": "Crepes de Plátano con Helado y cobertura de Chocolate caliente",
+			"price": 6.00,
+			"image": "crepes-platano.png",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos"],
+			"description": "Crepes de plátano al más puro estilo francés con cobertura de chocolate y helado."
+		},
+		"crepes-dulce-leche": {
+			"name": "Crepes \"Dulce de Leche\"",
+			"price": 6,
+			"image": "crepes-dulce-leche.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Dulce argentino elaborado a base de leche y azúcar. Si te gusta lo dulce, ¡pruébalo!"
+		},
+		"crepes-loft": {
+			"name": "Crepes \"Loft\"",
+			"price": 6.00,
+			"image": "crepes-loft.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos"],
+			"description": "Relleno de helado de Nata y cobertura de Chocolate caliente."
+		},
+		"crepes-apple": {
+			"name": "Crepes \"Apple\"",
+			"price": 6.00,
+			"image": "crepes-apple.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos", "lacteos"],
+			"description": "Relleno de compota de Manzana caliente y cubierta de Caramelo."
+		},
+		"tarta-loft": {
+			"name": "Tarta LOFT",
+			"price": 6.00,
+			"image": "tarta-loft.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Tarta de cremoso y suave Queso sobre una base de pasta quebrada Exclusiva de LOFT Café."
+		},
+		"tarta-chocolate": {
+			"name": "Tarta de Chocolate",
+			"price": 6.00,
+			"image": "tarta-chocolate.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos"],
+			"description": "Una tarta que solo se hace en LOFT Café con nuestra propia receta."
+		},
+		"yemas-esparragos": {
+			"name": "Yemas de espárragos blancos de Navarra",
+			"price": 18.90,
+			"image": "yemas-esparragos.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos"],
+			"description": "De 8 a 11 yemas muy gruesas de espárragos blancos de Navarra."
+		},
+		"mejillones": {
+			"name": "Selección de Mejillones en escabeche",
+			"price": 11.90,
+			"image": "mejillones.jpg",
+			"filters": [],
+			"allergens": ["moluscos"],
+			"description": "Mejillones en salsa de escabeche que nunca fallan como una buena entrada."
+		},
+		"anchoas-cantabrico": {
+			"name": "Anchoas del Cantábrico",
+			"price": 20.50,
+			"image": "anchoas-cantabrico.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": "Las mejores anchoas traídas del Cantábrico con un sabor insuperable."
+		},
+		"jamon-iberico": {
+			"name": "Jamón Ibérico",
+			"prices": [14.50, 22.50],
+			"pricesNames": ["1/2 ración", "Ración"],
+			"image": "jamon-iberico.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Plato de jamón ibérico cortado a cuchillo para deleitar a los más exquisitos. 100 gramos"
+		},
+		"queso-oveja": {
+			"name": "Queso Artesano de Oveja",
+			"prices": [8.50, 14.00],
+			"pricesNames": ["1/2 ración", "Ración"],
+			"image": "queso-oveja.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Queso Artesano puro de Oveja. 100 gramos"
+		},
+		"quesos-europeos": {
+			"name": "Selección de quesos europeos",
+			"price": 16.50,
+			"image": "quesos-europeos.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Selección de nuestros quesos más exquisitos de gran variedad europea."
+		},
+		"alcachofas": {
+			"name": "Alcachofas Naturales a la brasa",
+			"prices": [10.00, 17.00],
+			"pricesNames": ["1/2 ración", "Ración"],
+			"image": "alcachofas.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Alcachofas naturales en Flor a la brasa con sal Maldón. Solo en temporada"
+		},
+		"corazones-alcachofas": {
+			"name": "Corazones de Alcachofas con Jamón y habas",
+			"prices": [11.90, 18.00],
+			"pricesNames": ["1/2 ración", "Ración"],
+			"image": "corazones-alcachofas.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Corazones naturales con jamón y habitas. Solo en temporada"
+		},
+		"tartar-salmon": {
+			"name": "Tartar de Salmón",
+			"prices": [9.90, 14.90],
+			"pricesNames": ["1/2 ración", "Ración"],
+			"image": "tartar-salmon.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": "Delicioso Tartar de Salmón combinado con aguacate y cebolla para los más exigentes. Este establecimiento garantiza que los productos de la pesca de consumo en crudo han sido sometidos a congelación de -20ºC durante al menos 24 horas."
+		},
+		"ensalada-loft": {
+			"name": "Ensalada LOFT",
+			"price": 16.90,
+			"image": "ensalada-loft.jpg",
+			"filters": [],
+			"allergens": ["crustaceos"],
+			"description": "Ensalada templada de aguacate y langostinos salteados con ajillos al vinagre de Jerez."
+		},
+		"ensalada-cesar": {
+			"name": "Ensalada César",
+			"price": 13.90,
+			"image": "ensalada-cesar.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Pechuga de pollo, lechuga, espinacas, canónigos, costrones de pan, queso Parmesano y salsa Tártara."
+		},
+		"ensalada-queso": {
+			"name": "Ensalada de queso tibio de Cabra",
+			"price": 14.90,
+			"image": "ensalada-queso.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Con manzana y miel, sobre lecho de ensalada variada."
+		},
+		"ensalada-mediterranea": {
+			"name": "Ensalada Mediterránea",
+			"price": 16.90,
+			"image": "ensalada-mediterranea.jpg",
+			"filters": [],
+			"allergens": ["pescado", "soja"],
+			"description": "Tacos de Atún del estrecho salteados en la plancha, con rúcula, canónigos y tomates Cherry y aderezado con salsa Teriyaki."
+		},
+		"ensalada-caprese": {
+			"name": "Ensalada Caprese",
+			"price": 12.50,
+			"image": "ensalada-caprese.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["lacteos"],
+			"description": "Mozzarella, tomate y rúcula"
+		},
+		"ensalada-tomates": {
+			"name": "Ensalada de tomates variados con lomos de melva",
+			"price": 13.90,
+			"image": "ensalada-tomates.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": "Combinación de tomates variados"
+		},
+		"tomate-castellano": {
+			"name": "Tomate \"Castellano\" del terreno con sal Maldón y aceite oliva virgen extra",
+			"price": 10.90,
+			"image": "tomate-castellano.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Ensalada de nuestro riquísimo Tomate Castellano. Solo en temporada"
+		},
+		"ensalada-nicoise": {
+			"name": "Ensalada Nicoise",
+			"price": 12.90,
+			"image": "ensalada-nicoise.jpg",
+			"filters": ["vegetarian"],
+			"allergens": ["huevos"],
+			"description": "Selección de ensalada variada, judías verdes, aceitunas, pimientos asados, tomate, huevo y patatas. Elija un <a href=\"#/section/acompanamientos\">acompañamiento</a>"
+		},
+		"atun-plancha": {
+			"name": "Atún fresco plancha",
+			"price": 8.50,
+			"image": "atun-plancha.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": "Acompañamiento de atún a la plancha perfecto para cualquier ensalada."
+		},
+		"salmon-marinado": {
+			"name": "Salmón marinado",
+			"price": 8.50,
+			"image": "salmon-marinado.jpg",
+			"filters": [],
+			"allergens": ["pescado"],
+			"description": "Salmón marinado con aceite para sacar el máximo sabor a tu ensalada."
+		},
+		"dados-ternera": {
+			"name": "Daditos de ternera salteados",
+			"price": 8.50,
+			"image": "dados-ternera.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Dados de ternera en salsa como acompañante para los más hambrientos."
+		},
+		"pollo-plancha": {
+			"name": "Pechuga de pollo plancha",
+			"price": 5.50,
+			"image": "pollo-plancha.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Clásica pechuga de pollo a la plancha para acompañar la ensalada."
+		},
+		"pollo-empanado": {
+			"name": "Pechuga de pollo empanado",
+			"price": 5.50,
+			"image": "pollo-empanado.jpg",
+			"filters": [],
+			"allergens": ["huevos"],
+			"description": "Pechuga de pollo empanado con pimienta para darle el toque final a tu ensalada."	
+		},
+		"chuleton-vaca": {
+			"name": "Chuletón de Vaca Mayor",
+			"price": 55.90,
+			"image": "chuleton-vaca.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Selección especial CARBUGA. 1Kg. Precio 2 personas"
+		},
+		"lomo-vacuno": {
+			"name": "Lomo de Vacuno Mayor",
+			"price": 24.90,
+			"image": "lomo-vacuno.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Selección CARBUGA, Aprox. 300 gramos"
+		},
+		"solomillo-vacuno-parrilla": {
+			"name": "Solomillo de Vacuno Mayor a la parrilla con sal Maldón",
+			"price": 26.90,
+			"image": "solomillo-vacuno-parrilla.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Para los más carnivoros. Selección CARBUGA"
+		},
+		"solomillo-vacuno-foie": {
+			"name": "Solomillo de Vacuno Mayor con Foie fresco",
+			"price": 26.90,
+			"image": "solomillo-vacuno-foie.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Solomillo al Pedro Ximénez con foie. Selección CARBUGA"
+		},
+		"entraña-vacuno": {
+			"name": "Entraña de Vacuno Mayor",
+			"price": 17.90,
+			"image": "entraña-vacuno.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Entraña de vacuno troceada al más puro estilo LOFT. Selección CARBUGA"
+		},
+		"hamburguesa-loft": {
+			"name": "Hamburguesa LOFT (250 grs o 150 grs)",
+			"prices": [8.6, 15.9],
+			"pricesNames": ["150gr", "250gr"],
+			"image": "hamburguesa-loft.jpg",
+			"filters": [],
+			"allergens": ["lacteos"],
+			"description": "Nuestra inigualable hamburguesa hecha exclusivamente en LOFT. Si eres un verdadero amante de las hamburguesas, ésta es la tuya."
+		},
+		"lomo-ternera": {
+			"name": "Lomo bajo de Ternera fileteado a la salsa de Mostaza especial LOFT Café",
+			"price": 19.90,
+			"image": "lomo-ternera.jpg",
+			"filters": [],
+			"allergens": ["mostaza"],
+			"description": "Nuestra salsa especial LOFT hace incomparable el sabor de nuestro lomo de ternera."
+		},
+		"tacos-solomillo": {
+			"name": "Tacos de Solomillo Ternera al ajillo",
+			"price": 21.50,
+			"image": "tacos-solomillo.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Al aroma del Chardonnay"
+		},
+		"chuletillas-cordero": {
+			"name": "Chuletillas de cordero lechal",
+			"price": 22.50,
+			"image": "chuletillas-cordero.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Recién salidas del horno"
+		},
+		"medallones-solomillo": {
+			"name": "Medallones de Solomillo Ibérico a la parrilla de carbón",
+			"price": 19.50,
+			"image": "medallones-solomillo.jpg",
+			"filters": [],
+			"allergens": [],
+			"description": "Los clasicos nunca fallan."
+		},
+		"verduras-temporada": {
+			"name": "Verduras de temporada",
+			"image": "verduras-temporada.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Acompañamiento de verduras para comer ligero"
+		},
+		"patatas-cocidas": {
+			"name": "Patatas cocidas",
+			"image": "patatas-cocidas.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Con sal, pimienta y aceite"
+		},
+		"pisto-tradicional": {
+			"name": "Pisto tradicional",
+			"image": "pisto-tradicional.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Combinación de hortalizas troceadas. Excelente para acompañar cualquiera de nuestras carnes."
+		},
+		"patatas-fritas": {
+			"name": "Patatas fritas",
+			"image": "patatas-fritas.jpg",
+			"filters": ["vegetarian", "vegan"],
+			"allergens": [],
+			"description": "Patatas fritas o gajo para acompañar tu carne preferida"	
+		}
+	},
+	"filters": [
+		{
+			"id": "vegetarian",
+			"name": "Vegetariano",
+			"description": "Mostrar solo platos aptos para vegetarianos"
+		},
+		{
+			"id": "vegan",
+			"name": "Vegano",
+			"description": "Mostrar solo platos aptos para veganos"
+		}
+	],
+	"allergens": {
+		"gluten": {
+			"name": "Sin gluten",
+			"image": "gluten.svg",
+			"description": "Mostrar solo platos que no contengan gluten"
+		},
+		"huevos": {
+			"name": "Sin huevos",
+			"image": "huevos.svg",
+			"description": "Mostrar solo platos que no contengan huevos"
+		},
+		"pescado": {
+			"name": "Sin pescado",
+			"image": "pescado.svg",
+			"description": "Mostrar solo platos que no contengan pescado"
+		},
+		"lacteos": {
+			"name": "Sin lácteos",
+			"image": "lacteos.svg",
+			"description": "Mostrar solo platos que no contengan lácteos"
+		},
+		"soja": {
+			"name": "Sin soja",
+			"image": "soja.svg",
+			"description": "Mostrar solo platos que no contengan soja"
+		},
+		"frutos": {
+			"name": "Sin frutos de cáscara",
+			"image": "frutos-cascara.svg",
+			"description": "Mostrar solo platos que no contengan frutos de cáscara"
+		},
+		"crustaceos": {
+			"name": "Sin crustáceos",
+			"image": "crustaceos.svg",
+			"description": "Mostrar solo platos que no contengan crustáceos"
+		},
+		"sesamo": {
+			"name": "Sin sésamo",
+			"image": "sesamo.svg",
+			"description": "Mostrar solo platos que no contengan granos de sésamo"
+		},
+		"moluscos": {
+			"name": "Sin moluscos",
+			"image": "moluscos.svg",
+			"description": "Mostrar solo platos que no contengan moluscos"
+		},
+		"sulfitos": {
+			"name": "Sin sulfitos",
+			"image": "sulfitos.svg",
+			"description": "Mostrar solo platos que no contengan dióxido de azufre ni sulfitos"
+		},
+		"mostaza": {
+			"name": "Sin mostaza",
+			"image": "mostaza.svg",
+			"description": "Mostrar solo platos que no contengan mostaza"
+		},
+		"apio": {
+			"name": "Sin apio",
+			"image": "apio.svg",
+			"description": "Mostrar solo platos que no contengan apio"
+		},
+		"cacahuetes": {
+			"name": "Sin cacahuetes",
+			"image": "cacahuetes.svg",
+			"description": "Mostrar solo platos que no contengan cacahuetes"
+		},
+		"altramuces": {
+			"name": "Sin altramuces",
+			"image": "gluten.svg",
+			"description": "Mostrar solo platos que no contengan altramuces"
+		}
+	}
+}
