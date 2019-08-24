@@ -37,7 +37,7 @@
 		"carnes": {
 			"name": "Carnes",
 			"image": "carnes.jpg",
-			"items": ["chuleton-vaca", "lomo-vacuno", "solomillo-vacuno-parrilla", "solomillo-vacuno-foie", "entraña-vacuno", "hamburguesa-loft", "lomo-ternera", "tacos-solomillo", "chuletillas-cordero", "medallones-solomillo"],
+			"items": ["chuleton-vaca", "lomo-vacuno", "solomillo-vacuno-parrilla", "solomillo-vacuno-foie", "entrana-vacuno", "hamburguesa-loft", "lomo-ternera", "tacos-solomillo", "chuletillas-cordero", "medallones-solomillo"],
 			"info": "Nuestras carnes vienen acompañadas de una <a href=\"#/section/guarniciones\">guarnición</a> a elegir"
 		},
 		"postres": {
@@ -412,10 +412,10 @@
 			"allergens": [],
 			"description": "Solomillo al Pedro Ximénez con foie. Selección CARBUGA"
 		},
-		"entraña-vacuno": {
+		"entrana-vacuno": {
 			"name": "Entraña de Vacuno Mayor",
 			"price": 17.90,
-			"image": "entraña-vacuno.jpg",
+			"image": "entrana-vacuno.jpg",
 			"filters": [],
 			"allergens": [],
 			"description": "Entraña de vacuno troceada al más puro estilo LOFT. Selección CARBUGA"
