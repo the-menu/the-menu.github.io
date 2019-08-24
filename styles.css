@@ -579,7 +579,7 @@ input:checked + .filter-slider:before {
 .allergens-item-name {
 	display: block;
 	text-align: center;
-	font-size: 26px;
+	font-size: 25px;
 	color: #3A77BE;
 	-webkit-text-stroke: 1px #3A77BE;
 	padding: 16px;
