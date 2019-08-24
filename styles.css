@@ -317,7 +317,7 @@ header {
 .check-item {
 	display: flex;
 	align-items: center;
-	font-size: 25px;
+	font-size: 24px;
 	background-image: radial-gradient(closest-side, #3154C5, #364678);
 	border-radius: 61px;
 }
@@ -367,7 +367,6 @@ header {
 
 .check-item-count {
 	width: 112px;
-	font-size: 24px;
 	font-weight: bold;
 	background-color: #D9D9D9;
 	text-align: center;
