@@ -248,6 +248,8 @@ header {
 	position: relative;
 	display: table;
 	margin: auto;
+	min-height: 175px;
+	min-width: 180px;
 }
 
 .filter-foreground {
@@ -269,6 +271,7 @@ header {
 	font-size: 18px;
 	font-weight: bold;
 	color: #FFFFFF;
+	text-align: center;
 }
 
 .upload-icon {
@@ -291,6 +294,7 @@ header {
 	border: 1px solid #707070;
 	font-weight: bold;
 	font-size: 16px;
+	text-align: center;
 }
 
 .upload-mini-icon {
