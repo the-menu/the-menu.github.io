@@ -375,7 +375,7 @@
 		"pollo-empanado": {
 			"name": "Pechuga de pollo empanado",
 			"price": 5.50,
-			"image": "pollo-empanado.jpg",
+			"missing": "pollo-empanado.jpg",
 			"filters": [],
 			"allergens": ["huevos"],
 			"description": "Pechuga de pollo empanado con pimienta para darle el toque final a tu ensalada."	

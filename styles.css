@@ -33,10 +33,7 @@ p > a {
 	background-image: linear-gradient(180deg, #FCFCFC, #F3F3F3);
 	z-index: -1000;
 	position: fixed;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
+	top: 0; bottom: 0; left: 0; right: 0;
 }
 
 footer {
@@ -245,6 +242,59 @@ header {
 	max-width: 100%;
 	max-height: calc(100vh - var(--header-height) - var(--footer-height) - 170px);
 	margin: auto;
+}
+
+.missing-img {
+	position: relative;
+	display: table;
+	margin: auto;
+}
+
+.filter-foreground {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	background-color: rgba(169, 169, 169, 0.66);
+}
+
+.upload-div {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.upload-msg {
+	font-size: 18px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.upload-icon {
+	font-size: 60px;
+}
+
+.uploading-icon {
+	font-size: 50px;
+}
+
+.upload-input input {
+	display: none;
+}
+
+.upload-input {
+	color: #FFFFFF;
+	background-image: linear-gradient(180deg, #0080D2, #006CB2);
+	padding: 3px 20px;
+	border-radius: 6px;
+	border: 1px solid #707070;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.upload-mini-icon {
+	font-size: 20px;
 }
 
 .item-big-title {
