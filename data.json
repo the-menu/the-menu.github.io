@@ -570,7 +570,7 @@
 		},
 		"altramuces": {
 			"name": "Sin altramuces",
-			"image": "gluten.svg",
+			"image": "altramuces.svg",
 			"description": "Mostrar solo platos que no contengan altramuces"
 		}
 	}
