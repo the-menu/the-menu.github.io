@@ -92,6 +92,7 @@ header {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
+	grid-column-start: 2;
 	max-width: 100%;
 }
 
