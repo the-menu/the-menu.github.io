@@ -97,7 +97,7 @@ header {
 	max-width: 100%;
 }
 
-.title:last-child {
+.title:last-child:not(:first-child) {
 	padding-right: 20px;
 }
 
