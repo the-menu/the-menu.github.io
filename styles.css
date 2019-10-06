@@ -245,26 +245,24 @@ header {
 }
 
 .missing-img {
-	position: relative;
-	display: table;
-	margin: auto;
-	min-height: 175px;
-	min-width: 180px;
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+}
+
+.missing-img > * {
+	grid-area: 1 / 2;
 }
 
 .filter-foreground {
-	position: absolute;
-	top: 0; right: 0; bottom: 0; left: 0;
 	background-color: rgba(169, 169, 169, 0.66);
 }
 
 .upload-div {
-	position: absolute;
-	top: 0; right: 0; bottom: 0; left: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+	padding: 10px;
 }
 
 .upload-msg {
