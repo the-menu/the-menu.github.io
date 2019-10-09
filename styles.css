@@ -3,6 +3,7 @@
 	--footer-height: 54px;
 	--check-total-height: 66px;
 	--check-total-margin: 22px;
+	--section-info-bottom-margin: 12px;
 	--alternative-font: "Times New Roman", Times, serif;
 }
 
@@ -690,6 +691,10 @@ input:checked + .filter-slider:before {
 	background-color: rgb(249, 249, 249);
 }
 
+.section-info + .sizes-header {
+	margin-top: calc(var(--section-info-bottom-margin) * -1);
+}
+
 .sizes-info {
 	font-family: var(--alternative-font);
 	font-size: 20px;
@@ -725,7 +730,7 @@ input:checked + .sizes-slider {
 }
 
 .section-info {
-	margin: 12px 10px;
+	margin: var(--section-info-bottom-margin) 10px;
 	font-family: var(--alternative-font);
 	font-size: 20px;
 	font-weight: bold;
