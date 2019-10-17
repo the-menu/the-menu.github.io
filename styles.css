@@ -650,6 +650,7 @@ input:checked + .filter-slider:before {
 	padding: 13px;
 	margin-top: 10px;
 	white-space: pre-line;
+	text-transform: uppercase;
 }
 
 .allergens-icons {
@@ -672,6 +673,7 @@ input:checked + .filter-slider:before {
 	padding: 30px 13px;
 	border-bottom: 1px solid #707070;
 	margin: 0 6px 0 8px;
+	text-transform: uppercase;
 }
 
 .allergens-details {
