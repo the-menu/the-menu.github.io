@@ -1,4 +1,9 @@
 {
+	"languages": {
+		"es": "Español",
+		"en": "English",
+		"fr": "Français"
+	},
 	"defaultTitle": {
 		"es": "Nuestra carta",
 		"en": "Our menu"
