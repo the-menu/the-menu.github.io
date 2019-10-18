@@ -3,6 +3,8 @@
 		"name": "LOFT Café",
 		"address": "Calle San Antón 6, 18005 Granada\n<a href=\"tel:+34 958 520 933\">+34 958 520 933</a>",
 		"image": "logo-loft.jpg",
+		"languages": ["es"],
+		"defaultLanguage": "es",
 		"hours": "Lunes-Viernes: de 8:30 a 19:00\nSábados: de 10:00 a 16:00\nDomingos: cerrado",
 		"hoursDetails": "Nuestro horario ininterrumpido de cocina hace posible que nuestros clientes puedan disfrutar de cualquier plato de nuestras cartas a cualquier hora."
 	},
