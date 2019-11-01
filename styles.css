@@ -213,7 +213,7 @@ header::after {
 	color: #73A4DE;
 	-webkit-text-stroke: 1px #3A77BE;
 	text-align: center;
-	padding: 9px 10px;
+	padding: 10px;
 }
 
 .only-fullsize {
