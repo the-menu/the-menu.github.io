@@ -25,6 +25,10 @@ a {
 	text-decoration: inherit;
 }
 
+button {
+	cursor: pointer;
+}
+
 p > a {
 	color: #0000EE;
 }
@@ -449,7 +453,7 @@ header::after {
 	height: var(--check-total-height);
 	color: #FFFFFF;
 	background-color: #000000;
-	font-size: 18px;
+	font-size: 25px;
 	font-weight: bold;
 	display: flex;
 	width: 100%;
@@ -794,4 +798,56 @@ input:checked + .sizes-slider {
 	font-size: 16px;
 	margin: 15px 12px 15px 14px;
 	white-space: pre-line;
+}
+
+.order-container {
+	background-color: white;
+	font-size: 18px;
+	font-weight: bold;
+	border: 1px solid #707070;
+}
+
+.order-container + .order-container {
+	border-top: none;
+}
+
+.table-container {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 16px 20px;
+}
+
+.table-input {
+	width: 2em;
+	font-size: inherit;
+	font-weight: inherit;
+	border: none;
+	padding: 0px;
+}
+
+.table-input:valid + span, .table-input:focus + span {
+	display: none;
+}
+
+.table-container > *:not(:last-child) {
+	margin-right: 20px;
+}
+
+.comments-title {
+	padding: 12px 20px;
+}
+
+.comments {
+	margin: 0px 9px 24px;
+	box-sizing: border-box;
+	width: calc(100% - 9px * 2);
+	height: 175px;
+	background-color: #F3F3F3;
+	font-size: inherit;
+	font-weight: inherit;
+	padding: 7px 20px;
+	border: 1px solid #707070;
+	border-radius: 2px;
 }

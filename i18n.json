@@ -20,10 +20,6 @@
 		"es": "Cuenta",
 		"en": "Bill"
 	},
-	"checkTotal": {
-		"es": "Total a pagar",
-		"en": "Total"
-	},
 	"hoursTitle": {
 		"es": "Horarios",
 		"en": "Hours"
@@ -74,7 +70,7 @@
 	},
 	"missingImage": {
 		"es": "Imagen aún no disponible",
-		"en": "Image not available yet"
+		"en": "Image not yet available"
 	},
 	"photoUpload": {
 		"es": "Subir foto",
@@ -95,5 +91,53 @@
 	"fullsizeOnly": {
 		"es": "Solo fullSize",
 		"en": "fullSize only"
+	},
+	"defaultItem": {
+		"es": "Consultar al camarero",
+		"en": "Ask our waiter"
+	},
+	"requirementError": {
+		"es": "Error: sobran sectionName",
+		"en": "Error: too many sectionName"
+	},
+	"exceedingError": {
+		"es": "Error: demasiadas variedades de sectionName",
+		"en": "Error: too many varieties of sectionName"
+	},
+	"order": {
+		"es": "Pedido",
+		"en": "Order"
+	},
+	"orderNow": {
+		"es": "Pedir ahora",
+		"en": "Order now"
+	},
+	"tableNumber": {
+		"es": "Número de mesa",
+		"en": "Table number"
+	},
+	"commentsTitle": {
+		"es": "Comentarios",
+		"en": "Additional information"
+	},
+	"commentsPlaceholder": {
+		"es": "Añade tus comentarios...",
+		"en": "Add extra info..."
+	},
+	"ordering": {
+		"es": "Pidiendo...",
+		"en": "Ordering..."
+	},
+	"orderSuccess": {
+		"es": "Pedido realizado. Por favor, espere al camarero.",
+		"en": "Done. Please wait for the waiter."
+	},
+	"orderFailed": {
+		"es": "Error. Por favor, inténtelo de nuevo.",
+		"en": "Error. Please try again."
+	},
+	"orderUnavaliable": {
+		"es": "El establecimiento no ha activado esta función. Por favor, solicíteselo al camarero.",
+		"en": "This location has not activated this function. Please tell the waiter."
 	}
 }
